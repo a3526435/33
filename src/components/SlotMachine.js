@@ -41,7 +41,7 @@ const SlotMachine = () => {
       <p>House Edge: {houseEdge}%</p>
       <p>Win Probability: {winProbability}%</p>
       <button onClick={playGame}>Play</button>
-      <p>{message}</p>
+      <p className="message">{message}</p>
     </div>
   );
 };
